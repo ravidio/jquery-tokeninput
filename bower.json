@@ -1,23 +1,36 @@
 {
-    "name"         : "jquery-tokeninput-ps",
-    "version"      : "1.6.3",
-    "description"  : "Tokeninput is a jQuery plugin which allows your users to select multiple items from a predefined list, using autocompletion as they type to find each item.",
-    "main"         : [ "./src/jquery.tokeninput.js", "./styles/token-input.css" ],
-    "homepage"     : "http://loopj.com/jquery-tokeninput",
-    "dependencies" : {
-        "jquery" : ">= 1.5.x"
-    },
-    "keywords"     : [
-        "tokeninput",
-        "input",
-        "autocomplete"
-    ],
-    "author" : {
-        "name" : "James Smith",
-        "web"  : "http://loopj.com"
-    },
-    "license": [
-        "http://www.opensource.org/licenses/mit-license.php",
-        "http://www.opensource.org/licenses/gpl-license.php"
-    ]
+  "name": "jquery-tokeninput-ps",
+  "version": "1.6.3",
+  "description": "Tokeninput is a jQuery plugin which allows your users to select multiple items from a predefined list, using autocompletion as they type to find each item.",
+  "main": [
+    "./src/jquery.tokeninput.js",
+    "./styles/token-input.css"
+  ],
+  "homepage": "http://loopj.com/jquery-tokeninput",
+  "dependencies": {
+    "jquery": ">= 1.5.x"
+  },
+  "keywords": [
+    "tokeninput",
+    "input",
+    "autocomplete"
+  ],
+  "author": {
+    "name": "James Smith",
+    "web": "http://loopj.com"
+  },
+  "license": [
+    "http://www.opensource.org/licenses/mit-license.php",
+    "http://www.opensource.org/licenses/gpl-license.php"
+  ],
+  "authors": [
+    "Ravid Rosental"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
